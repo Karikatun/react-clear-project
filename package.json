@@ -1,0 +1,86 @@
+{
+  "name": "calendar-events",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/eslint-parser": "^7.5.4",
+    "@babel/helper-module-imports": "^7.16.7",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@babel/preset-typescript": "^7.17.12",
+    "@reduxjs/toolkit": "^1.8.2",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/react-redux": "^7.1.24",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/redux-persist": "^4.3.1",
+    "@types/redux-thunk": "^2.1.0",
+    "apisauce": "^2.1.5",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^8.18.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "moment": "^2.29.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.0",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.1",
+    "typescript": "^4.4.2",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "NODE_PATH=src react-scripts start",
+    "build": "NODE_PATH=src react-scripts build",
+    "test": "NODE_PATH=src react-scripts test",
+    "eject": "NODE_PATH=src react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/runtime": "^7.18.3",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.7.1"
+  },
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "components/*": [
+        "./src/components/*"
+      ]
+    }
+  },
+  "plugins": [
+    "@babel/plugin-proposal-export-default-from"
+  ]
+}
